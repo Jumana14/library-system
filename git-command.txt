@@ -28,3 +28,13 @@ Step7: We will add our files to the remote repository using the below command
 
 Step8: Now we will push the files to the remote repository
     git push -u origin main
+
+
+We got an error saying:
+    $ git remote add origin https://git@github.com/Jumana14/library-system.git
+    error: remote origin already exists.
+So chatgpt said to set the url 
+    git remote set-url origin https://git@github.com/Jumana14/library-system.git
+
+
+What is the reason for this error? how should I fix this error
