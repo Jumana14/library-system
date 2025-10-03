@@ -38,3 +38,11 @@ So chatgpt said to set the url
 
 
 What is the reason for this error? how should I fix this error
+
+when I try to push, I got this error:
+
+fatal: 'git@github.com/Jumana14/library-system.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
