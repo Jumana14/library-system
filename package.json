@@ -1,0 +1,21 @@
+{
+  "name": "library-system",
+  "version": "1.0.0",
+  "description": "library",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "library-system"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "Jumana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
