@@ -1,3 +1,30 @@
 The library system folder doesn't have any code, 
 We will commit this folder in the github with the new repository named library-system
 
+Step1: We switched to the folder which we need to commit
+    cd /folder_name/
+if it is inside that folder again write that above command
+
+Step2: We initialized the git
+    git init
+
+Step3: We will add all the files:
+    git add .
+If we want to add a particular file, then
+    git add file_name
+
+Step4: We will commit with some description:
+    git commit -m "Commit Description"
+
+Step5:  We will switch to main branch if we are not on main branch:
+    git branch -M main
+
+Step6: At this step we can create a repository with the name we have given in package.json or before performing
+the git operations
+
+Step7: We will add our files to the remote repository using the below command
+    we can add using https or ssh, here we are going to use ssh
+    git remote add origin git@github.com:Jumana14/library-system.git
+
+Step8: Now we will push the files to the remote repository
+    git push -u origin main
