@@ -46,3 +46,8 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+
+
+I have tried to commit using both ssh key and url 
+for url , you need to perfom git remote set-url (link) command, and then git remote origin (url)
+for ssh key, you need to give direct git remote origin (ssh-key)
