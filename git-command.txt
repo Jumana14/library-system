@@ -49,5 +49,5 @@ and the repository exists.
 
 
 I have tried to commit using both ssh key and url 
-for url , you need to perfom git remote set-url (link) command, and then git remote origin (url)
-for ssh key, you need to give direct git remote origin (ssh-key)
+for url , you need to perfom git remote set-url origin (link) command, and then git remote add origin (url)
+for ssh key, you need to give direct git remote add origin (ssh-key)
