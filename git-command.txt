@@ -36,8 +36,7 @@ We got an error saying:
 So chatgpt said to set the url 
     git remote set-url origin https://git@github.com/Jumana14/library-system.git
 
-
-What is the reason for this error? how should I fix this error
+In this line I am making changes to resolve the conflicts that will occur in the main branch
 
 when I try to push, I got this error:
 
@@ -51,3 +50,7 @@ and the repository exists.
 I have tried to commit using both ssh key and url 
 for url , you need to perfom git remote set-url origin (link) command, and then git remote add origin (url)
 for ssh key, you need to give direct git remote add origin (ssh-key)
+
+
+to switch to another branch, we do the below command:
+    git checkout -b branch_name
